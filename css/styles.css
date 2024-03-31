@@ -46,6 +46,7 @@ header {
   padding: 24px 0;
   display: block;
   margin-right: 76px;
+  padding-left: 156px;
 }
 .header-menu-link {
   font: 500 16px / 1.5 "Roboto", sans-serif;
@@ -80,7 +81,6 @@ header {
 .contacts-link:focus {
   color: #404bbf;
 }
-
 .contacts-link {
   font: 500 20px / 1.2 "Roboto", sans-serif;
   letter-spacing: 0.02em;
@@ -94,6 +94,9 @@ header {
   padding-left: 304px;
   align-items: center;
 }
+.contacts-item {
+  margin: auto;
+}
 /* Main */
 .section-one-head {
   font: 700 56px / 1.07 "Roboto", sans-serif;
@@ -106,7 +109,7 @@ header {
 
   margin: 0 auto;
 }
-.section-one {
+.section-one-wrap {
   background: #2e2f42;
   width: 1440px;
   height: 600px;
