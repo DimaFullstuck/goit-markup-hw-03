@@ -37,12 +37,12 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding-top: 24px;
-  padding-bottom: 24px;
   padding-left: 156px;
   text-align: center;
   gap: 0px;
-  display: flex;
+  padding: 24px 0;
+  display: block;
+  margin-right: 76px;
 }
 .header-menu-link {
   font: 500 16px / 1.5 "Roboto", sans-serif;
@@ -58,7 +58,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-
   gap: 40px;
   margin: auto;
   padding-left: 76px;
