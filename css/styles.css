@@ -164,6 +164,7 @@ header {
   background-color: #f4f4fd;
   width: 1440px;
   height: 732px;
+  display: block;
 }
 .ourteam-title {
   font: 700 36px / 1.11 "Roboto", sans-serif;
@@ -172,10 +173,16 @@ header {
   text-transform: capitalize;
   color: #2e2f42;
   background: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 72px;
+  margin: 0 auto;
 }
 .ourteam-list {
-  background-color: #ffffff;
   display: flex;
+  padding-left: 156px;
+  padding-bottom: 120px;
+  padding-right: 156px;
+  gap: 24px;
 }
 .ourteam-item {
   background-color: #ffffff;
@@ -187,17 +194,25 @@ header {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-top: 32px;
 }
 .ourteam-text {
   font: 400 16px / 1.5 "Roboto", sans-serif;
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 32px;
 }
 /* ----------- */
 /* --------Our portfolio------- */
+/* .container-box {
+  width: 1440px;
+} */
 .section-portfolio {
-  background-color: #f4f4fd;
+  background-color: #ffffff;
+  padding-left: 156px;
+
+  align-items: center;
 }
 .section-portfolio-title {
   font: 700 36px / 1.11 "Roboto", sans-serif;
@@ -205,18 +220,27 @@ header {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  padding-bottom: 71px;
+  margin: 0 auto;
+  padding-top: 120px;
 }
 .container-subtitle {
   font: 500 20px / 1.2 "Roboto", sans-serif;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.section-list {
+  width: 1128px;
+  height: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+}
 .container-text {
   font: 400 16px / 1.5 "Roboto", sans-serif;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.container {
+.container-item {
 }
 .container-list {
   background-color: #ffffff;
@@ -230,6 +254,8 @@ header {
 /* -------------Footer */
 .footer {
   background: #2e2f42;
+  width: 1440px;
+  height: 312px;
 }
 
 .footer-link {
@@ -237,6 +263,14 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 0px;
+  padding-top: 100px;
+  padding-left: 156px;
+  padding-bottom: 16px;
 }
 
 .footer-logo-item {
@@ -245,11 +279,23 @@ header {
   text-transform: uppercase;
   color: #f4f4fd;
 }
-
+/* .footer-logo-text {
+  width: 264px;
+  height: 112px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 156px;
+  justify-content: flex-start;
+  display: flex;
+} */
 .footer-text {
   font: 400 16px / 1.5 "Roboto", sans-serif;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  display: flex;
+  width: 264px;
+
+  align-items: flex-start;
 }
 /* --------------- */
 /* -----------------Container---------------- */
