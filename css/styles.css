@@ -10,7 +10,10 @@ body {
   background-color: #ffffff;
 }
 .container {
-  width: 1440px;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 img {
   display: block;
@@ -59,8 +62,8 @@ header {
   align-items: center;
   justify-content: flex-start;
   gap: 40px;
-  margin: auto;
-  padding-left: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-menu-item {
 }
