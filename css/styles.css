@@ -111,10 +111,11 @@ header {
 }
 .section-one-wrap {
   background: #2e2f42;
-  width: 1440px;
-  height: 600px;
+
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
-.section-accent {
+.section-accent-btn {
   font: 500 16px / 1.5 "Roboto", sans-serif;
   letter-spacing: 0.04em;
   color: #fff;
@@ -125,12 +126,14 @@ header {
   padding-bottom: 182px;
 }
 .button {
-  display: flex;
+  display: block;
   gap: 10px;
   border-radius: 4px;
   padding: 16px 32px;
   border: none;
   cursor: pointer;
+  border: none;
+  min-width: 169px;
 }
 .section-accent:hover,
 .section-accent:focus {
